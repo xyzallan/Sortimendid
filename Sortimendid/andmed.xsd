@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="andmed" targetNamespace="http://tempuri.org/andmed.xsd" xmlns:mstns="http://tempuri.org/andmed.xsd" xmlns="http://tempuri.org/andmed.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="andmed" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="andmed" msprop:Generator_UserDSName="andmed">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="takseer" msprop:Generator_TableClassName="takseerDataTable" msprop:Generator_TableVarName="tabletakseer" msprop:Generator_TablePropName="takseer" msprop:Generator_RowDeletingName="takseerRowDeleting" msprop:Generator_UserTableName="takseer" msprop:Generator_RowChangingName="takseerRowChanging" msprop:Generator_RowEvHandlerName="takseerRowChangeEventHandler" msprop:Generator_RowDeletedName="takseerRowDeleted" msprop:Generator_RowEvArgName="takseerRowChangeEvent" msprop:Generator_RowChangedName="takseerRowChanged" msprop:Generator_RowClassName="takseerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="rinne" msprop:Generator_ColumnVarNameInTable="columnrinne" msprop:Generator_ColumnPropNameInRow="rinne" msprop:Generator_ColumnPropNameInTable="rinneColumn" msprop:Generator_UserColumnName="rinne" type="xs:string" minOccurs="0" />
+              <xs:element name="puuliik" msprop:Generator_ColumnVarNameInTable="columnpuuliik" msprop:Generator_ColumnPropNameInRow="puuliik" msprop:Generator_ColumnPropNameInTable="puuliikColumn" msprop:Generator_UserColumnName="puuliik" type="xs:string" minOccurs="0" />
+              <xs:element name="vanus" msprop:Generator_ColumnVarNameInTable="columnvanus" msprop:Generator_ColumnPropNameInRow="vanus" msprop:Generator_ColumnPropNameInTable="vanusColumn" msprop:Generator_UserColumnName="vanus" type="xs:double" minOccurs="0" />
+              <xs:element name="diameeter" msprop:Generator_ColumnVarNameInTable="columndiameeter" msprop:Generator_ColumnPropNameInRow="diameeter" msprop:Generator_ColumnPropNameInTable="diameeterColumn" msprop:Generator_UserColumnName="diameeter" type="xs:double" minOccurs="0" />
+              <xs:element name="korgus" msprop:Generator_ColumnVarNameInTable="columnkorgus" msprop:Generator_ColumnPropNameInRow="korgus" msprop:Generator_ColumnPropNameInTable="korgusColumn" msprop:Generator_UserColumnName="korgus" type="xs:double" minOccurs="0" />
+              <xs:element name="rinnaspindala" msprop:Generator_ColumnVarNameInTable="columnrinnaspindala" msprop:Generator_ColumnPropNameInRow="rinnaspindala" msprop:Generator_ColumnPropNameInTable="rinnaspindalaColumn" msprop:Generator_UserColumnName="rinnaspindala" type="xs:double" minOccurs="0" />
+              <xs:element name="tagavara" msprop:Generator_ColumnVarNameInTable="columntagavara" msprop:Generator_ColumnPropNameInRow="tagavara" msprop:Generator_ColumnPropNameInTable="tagavaraColumn" msprop:Generator_UserColumnName="tagavara" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sortimendid" msprop:Generator_TableClassName="sortimendidDataTable" msprop:Generator_TableVarName="tablesortimendid" msprop:Generator_TablePropName="sortimendid" msprop:Generator_RowDeletingName="sortimendidRowDeleting" msprop:Generator_UserTableName="sortimendid" msprop:Generator_RowChangingName="sortimendidRowChanging" msprop:Generator_RowEvHandlerName="sortimendidRowChangeEventHandler" msprop:Generator_RowDeletedName="sortimendidRowDeleted" msprop:Generator_RowEvArgName="sortimendidRowChangeEvent" msprop:Generator_RowChangedName="sortimendidRowChanged" msprop:Generator_RowClassName="sortimendidRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="rinne" msprop:Generator_ColumnVarNameInTable="columnrinne" msprop:Generator_ColumnPropNameInRow="rinne" msprop:Generator_ColumnPropNameInTable="rinneColumn" msprop:Generator_UserColumnName="rinne" type="xs:string" minOccurs="0" />
+              <xs:element name="puuliik" msprop:Generator_ColumnVarNameInTable="columnpuuliik" msprop:Generator_ColumnPropNameInRow="puuliik" msprop:Generator_ColumnPropNameInTable="puuliikColumn" msprop:Generator_UserColumnName="puuliik" type="xs:string" minOccurs="0" />
+              <xs:element name="jamepalk" msprop:Generator_ColumnVarNameInTable="columnjamepalk" msprop:Generator_ColumnPropNameInRow="jamepalk" msprop:Generator_ColumnPropNameInTable="jamepalkColumn" msprop:Generator_UserColumnName="jamepalk" type="xs:double" minOccurs="0" />
+              <xs:element name="peenpalk" msprop:Generator_ColumnVarNameInTable="columnpeenpalk" msprop:Generator_ColumnPropNameInRow="peenpalk" msprop:Generator_ColumnPropNameInTable="peenpalkColumn" msprop:Generator_UserColumnName="peenpalk" type="xs:double" minOccurs="0" />
+              <xs:element name="paberipuit" msprop:Generator_ColumnVarNameInTable="columnpaberipuit" msprop:Generator_ColumnPropNameInRow="paberipuit" msprop:Generator_ColumnPropNameInTable="paberipuitColumn" msprop:Generator_UserColumnName="paberipuit" type="xs:double" minOccurs="0" />
+              <xs:element name="kyttepuit" msprop:Generator_ColumnVarNameInTable="columnkyttepuit" msprop:Generator_ColumnPropNameInRow="kyttepuit" msprop:Generator_ColumnPropNameInTable="kyttepuitColumn" msprop:Generator_UserColumnName="kyttepuit" type="xs:double" minOccurs="0" />
+              <xs:element name="jaatmed" msprop:Generator_ColumnVarNameInTable="columnjaatmed" msprop:Generator_ColumnPropNameInRow="jaatmed" msprop:Generator_ColumnPropNameInTable="jaatmedColumn" msprop:Generator_UserColumnName="jaatmed" type="xs:double" minOccurs="0" />
+              <xs:element name="kokku" msprop:Generator_ColumnVarNameInTable="columnkokku" msprop:Generator_ColumnPropNameInRow="kokku" msprop:Generator_ColumnPropNameInTable="kokkuColumn" msprop:Generator_UserColumnName="kokku" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
