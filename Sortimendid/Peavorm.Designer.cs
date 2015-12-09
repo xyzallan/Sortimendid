@@ -44,11 +44,11 @@
             this.myDGV2 = new Sortimendid.myDGV();
             this.rinneDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.puuliikDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vanusDataGridViewTextBoxColumn = new DataGridViewDoubleBoxColumn();
-            this.diameeterDataGridViewTextBoxColumn = new DataGridViewDoubleBoxColumn();
-            this.korgusDataGridViewTextBoxColumn = new DataGridViewDoubleBoxColumn();
-            this.rinnaspindalaDataGridViewTextBoxColumn = new DataGridViewDoubleBoxColumn();
-            this.tagavaraDataGridViewTextBoxColumn = new DataGridViewDoubleBoxColumn();
+            this.vanusDataGridViewTextBoxColumn = new Sortimendid.DataGridViewDoubleBoxColumn();
+            this.diameeterDataGridViewTextBoxColumn = new Sortimendid.DataGridViewDoubleBoxColumn();
+            this.korgusDataGridViewTextBoxColumn = new Sortimendid.DataGridViewDoubleBoxColumn();
+            this.rinnaspindalaDataGridViewTextBoxColumn = new Sortimendid.DataGridViewDoubleBoxColumn();
+            this.tagavaraDataGridViewTextBoxColumn = new Sortimendid.DataGridViewDoubleBoxColumn();
             this.takseerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.andmed = new Sortimendid.andmed();
             this.myDGV1 = new Sortimendid.myDGV();
@@ -176,7 +176,6 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.myDGV2.DefaultCellStyle = dataGridViewCellStyle1;
-            this.myDGV2.Direction = Sortimendid.DirForEnter.Horisontal;
             this.myDGV2.Location = new System.Drawing.Point(15, 76);
             this.myDGV2.Name = "myDGV2";
             this.myDGV2.RowHeadersWidth = 10;
@@ -260,7 +259,6 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.myDGV1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.myDGV1.Direction = Sortimendid.DirForEnter.Horisontal;
             this.myDGV1.Location = new System.Drawing.Point(12, 302);
             this.myDGV1.Name = "myDGV1";
             this.myDGV1.RowHeadersWidth = 10;
@@ -321,7 +319,7 @@
             this.sortimendidBindingSource.DataMember = "sortimendid";
             this.sortimendidBindingSource.DataSource = this.andmed;
             // 
-            // Form1
+            // Peavorm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -338,9 +336,9 @@
             this.Controls.Add(this.btn_arvuta);
             this.Controls.Add(this.btn_tyhi);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
+            this.Name = "Peavorm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Takseerkirjeldusest sortimendid - Õppeprogramm - (C) Allan Sims, 2012";
+            this.Text = "Takseerkirjeldusest sortimendid - Õppeprogramm - (C) Allan Sims, 2015";
             ((System.ComponentModel.ISupportInitialize)(this.myDGV2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.takseerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.andmed)).EndInit();
@@ -377,11 +375,11 @@
         private myDGV myDGV2;
         private System.Windows.Forms.DataGridViewTextBoxColumn rinneDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn puuliikDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn vanusDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn diameeterDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn korgusDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rinnaspindalaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tagavaraDataGridViewTextBoxColumn;
+        private DataGridViewDoubleBoxColumn vanusDataGridViewTextBoxColumn;
+        private DataGridViewDoubleBoxColumn diameeterDataGridViewTextBoxColumn;
+        private DataGridViewDoubleBoxColumn korgusDataGridViewTextBoxColumn;
+        private DataGridViewDoubleBoxColumn rinnaspindalaDataGridViewTextBoxColumn;
+        private DataGridViewDoubleBoxColumn tagavaraDataGridViewTextBoxColumn;
     }
 }
 
