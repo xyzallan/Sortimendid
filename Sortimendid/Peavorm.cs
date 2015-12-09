@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sortimendid
 {
-    public partial class Form1 : Form
+    public partial class Peavorm : Form
     {
-        public Form1()
+        public Peavorm()
         {
             InitializeComponent();
         }
